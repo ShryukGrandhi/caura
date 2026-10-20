@@ -26,6 +26,9 @@ agent.
 - [`usage-metering.md`](usage-metering.md) — what each workspace's model calls
   cost in tokens and what its memory saved, kept in its own database; how it
   is counted and how to turn it off.
+- [`telemetry.md`](telemetry.md) — what the anonymous daily heartbeat sends,
+  how to inspect it, and how to turn it off; the payload schema is
+  [`telemetry-schema-v1.json`](telemetry-schema-v1.json).
 
 ## Building against the API
 
